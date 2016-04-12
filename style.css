@@ -2,14 +2,14 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  padding-left: 3em;
+  padding-left: 6em;
   padding-top: .5em;
   padding-bottom: 1em;
   color: #445363;
 }
 
 h2 {
-  padding-top: 1em;
+  padding-top: .45em;
   margin-bottom: .25em;
 }
 
@@ -29,11 +29,23 @@ a:hover {
 }
 
 img.logo {
-    width: 300px;
+    width: 250px;
+    padding-bottom: 40px;
+}
+
+hr {
+  width: 270px;
+  position: absolute;
+  padding-left: 6em;
+	border-top: 1px solid #8c8b8b;
 }
 
 @media only screen and (max-width: 800px) {
   img.logo {
       width: 250px;
+      margin: 0 auto;
   }
+  body {
+    padding-left: 2em;
+}
 }
