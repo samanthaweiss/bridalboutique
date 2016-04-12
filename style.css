@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 3em;
+  padding-top: .5em;
+  padding-bottom: 1em;
+  color: #445363;
+}
+
+h2 {
+  padding-top: 1em;
+  margin-bottom: .25em;
+}
+
+ul {
+   list-style-type: none;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c67f88;
+}
+
+img.logo {
+    width: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+  img.logo {
+      width: 250px;
+  }
+}
