@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: 'Opens Sans', sans-serif;
+}
+
+nav {
+  width: 100%;
+}
