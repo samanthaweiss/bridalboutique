@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
-
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
 
 html, body{
   margin:-8px;
@@ -30,6 +29,15 @@ a {
   text-decoration: none;
 }
 
+a.image {
+  opacity: 1;
+}
+
+a.image:hover {
+  opacity: .8;
+  color: white;
+}
+
 .salebanner {
   background-color: #e3b489;
   padding: 12px;
@@ -40,6 +48,13 @@ a {
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
+  opacity: 1;
+}
+
+.salebanner:hover {
+  background-color:rgba(255,255,255);
+  opacity: 0.8;
+
 }
 
 ul {
@@ -91,10 +106,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-    color: #fff;
-    background-color: #c67f88;
-}
 
 .footer li {
   display: inline-block;
@@ -129,18 +140,10 @@ button:hover {
   margin-top: -350px;
   margin-bottom: 350px;
 }
-h1.tile {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 2.5em;
-}
-h2.tile {
-  font-weight: 400;
-  margin-top: -320px;
-  margin-bottom: 235px;
-}
 
+p {
+
+}
 .hero-image {
     height: 30vh;
     background-image: url(images/cover-mobile.jpg);
@@ -162,12 +165,25 @@ h2.tile {
     z-index: 100;
     padding: 3.5em;
     font-family: 'Dancing Script', cursive;
+    font-weight: 400;
     color: white;
     font-weight: 400;
     font-size: 1.5em;
     text-align: center;
+    margin-bottom: 0px;
 }
 
+h1 {
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .65em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 @media only screen and (min-width: 650px) {
   .section {
@@ -207,7 +223,7 @@ h2.tile {
       padding: 1em;
       font-family: 'Dancing Script', cursive;
       color: white;
-      font-weight: 400;
+      font-weight: lighter;
       font-size: 2em;
       text-align: center;
   }
@@ -224,22 +240,16 @@ h2.tile {
   }
 }
 
-
-
-
-
-
 .container-header {
   text-align: center;
   padding: 0px 0;
   margin-top: 0px;
-
 }
 
 .container-header a {
   color: #969696;
   font-family: 'Open Sans', sans-serif;
-  font-size: .9em;
+  font-size: 1em;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -275,8 +285,12 @@ h2.tile {
 .container-header a {
   color: #969696;
   font-family: 'Open Sans', sans-serif;
-  font-size: .85em;
+  font-size: .9em;
   padding-left: 40px;
   padding-right: 40px;
 }
+
+.container-header a:hover {
+  color: #c67f88;
+  }
 }
