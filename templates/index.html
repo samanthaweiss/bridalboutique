@@ -8,10 +8,8 @@
     <meta name="description" content="Home">
 
   <header>
-Site Name or Logo
-<!-- This is your navigation menu trigger.  It only shows for small screens.  You can style it any way you want, including as a hamburger menu.-->
-<a href="#menu" class="menu-link">Menu</a>
-
+  <img class="logo" alt="Barb's Bridal Boutique Logo" src="images/barb.svg">
+   <hr>
    <ul class="navigation" role="navigation">
             <ul>
                 <li><a href="appointment.html">Appointments</a></li>
@@ -19,32 +17,49 @@ Site Name or Logo
                 <li><a href="#">Accessories</a></li>
                 <li><a href="#">Designers</a></li>
 
-            </ul>
-</nav>
+            </ul></ul>
+  <hr>
+
 </header>
 <body>
 
-<h1 class="landingpage"> Your perfect day - you're perfect dress.</h1>
-<img class="main" src ="images/cover-mobile.jpg">
+<section class="hero-image">
+    <div class="hero-image__container"> <!-- If anyone has a more semantic way to do this, let me know -->
+        <div class="hero-image__text">
+            <h1>Your perfect day - you're perfect dress.</h1>
+            <p>We're here to help.</p>
+        </div>
+    </div>
+</section>
+
+
 <div class="group">
-  <div class="section"><figure><img src="images/1.jpg"></figure>
-        <figcaption><button>Find Your Dress</button></figcaption>
+  <div class="section"><img class="main" src="images/1.jpg">
+        <button>Find Your Dress</button>
   </div>
-  <div class="section"><figure><img src="images/2.jpg"></figure>
-        <figcaption><button>Book An Appointment</button></figcaption>
-  </div>
-  <div class="section"><figure><img src="images/3.jpg"></figure>
-        <figcaption><button>Share Your Story</button></figcaption>
+  <div class="sectionlast"><img class="main" src="images/2.jpg">
+        <button>Book An Appointment</button>
   </div>
 
+  <div class="section"><img class="main" src="images/3.jpg">
+        <button>Share Your Story</button>
+  </div>
+  <div class="sectionlast"><img class="main" src="images/4.png">
+        <button>Shop Now</button>
+  </div>
+
+</div>
 </group>
+
 
   </body>
 </main>
+
   <footer>
-    <ul><a href="contact.html">About</a></ul>
-    <ul><a href="calendar.html">Calendar</a></ul>
-    <ul><a href="stories.html">Stories</a></ul>
+     <ul class="footer" role="navigation">
+    <li><a href="contact.html">About</a></li>
+    <li><a href="calendar.html">Calendar</a></li>
+    <li><a href="stories.html">Stories</a></li>
   </footer>
      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
 </html>

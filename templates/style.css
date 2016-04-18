@@ -1,8 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
+
+html, body{
+  margin:-8px;
+  padding:0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 body {
-  max-width: 1000px;
+  max-width: 1230px;
   padding: 1em;
   font-family: 'Opens Sans', sans-serif;
 }
@@ -11,34 +19,186 @@ nav {
   width: 100%;
 }
 
+header {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+img.main {
+  width: 100%;
+}
+hr {
+  border: 0;
+   height: 1px;
+   background: #d4d4d4;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
 .navigation li {
   display: inline-block;
   margin: 0 auto;
-
+  padding-right: 3em;
 }
+
+.navigation li:last-child {
+padding-right: 0em;
+}
+
 .navigation li a {
   padding: 1em 0.5em;
   border: 0;
   width: 200px;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: .85em;
+  color: #969696;
 }
 
-h1.landingpage {
-  font-family: 'Dancing Script', cursive;
-  color: white;
-  position: absolute;
-  font-weight: 400;
-  margin-top: 3em;
-  margin-left: 15%;
-  margin-right: 15%;
-  text-align: center;
-  font-size: 2.5em;
-
+.navigation li a:hover {
+  color: #c67f88;
 }
 
-img.main {
-  display: block;
+
+img.logo {
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.section {
   width: 100%;
-  margin: 0 auto;
+}
 
+button {
+  display:block; /* change this from inline-block */
+  width:70%; /* setting the width */
+  margin:0 auto; /* this will center  it */
+  position:relative;
+  background: #e8c6a7;
+  margin-top: -8em;
+  margin-bottom: 6em;
+  padding: .75em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #fff;
+  border: none;
+  text-align: center;
+  color: #c67f88;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: .9em;
+  cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #c67f88;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer li a {
+  padding: 1em 0.5em;
+  border: 0;
+  width: 200px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .85em;
+  text-decoration: none;
+  color: #969696;
+  padding-right: 3em;
+}
+
+.footer li a:hover {
+  color: #c67f88;
+}
+
+
+
+.hero-image {
+    height: 30vh;
+    background-image: url(images/cover-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.hero-image__container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 100%;
+
+}
+
+.hero-image__text {
+    z-index: 100;
+    padding: 3.5em;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 650px) {
+  .section {
+    width: 49%;
+    float: left;
+    padding-right: 2%;
+  }
+  .sectionlast {
+    width: 49%;
+    float: left;
+    padding-right: 0;
+  }
+  button {
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size: .9em;
+  }
+  .hero-image {
+      height: 60vh;
+      background-image: url(images/cover-mobile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      margin-bottom: 15px;
+  }
+
+  .hero-image__container {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+      height: 100%;
+
+  }
+
+  .hero-image__text {
+      z-index: 100;
+      padding: 1em;
+      font-family: 'Dancing Script', cursive;
+      color: white;
+      font-weight: 400;
+      font-size: 2em;
+      text-align: center;
+  }
 }
