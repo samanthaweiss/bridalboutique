@@ -66,6 +66,9 @@ a {
   opacity: 0.8;
 }
 
+.group {
+  position: relative;
+}
 ul {
   padding: 0;
   margin: 0 auto;
@@ -89,6 +92,10 @@ img.logo {
 }
 
 .section {
+  width: 100%;
+}
+
+.dresssection {
   width: 100%;
 }
 
@@ -117,12 +124,16 @@ button {
 }
 
 button.last {
-
   background-color: rgba(255,255,255, 0.1);
-
   cursor: pointer;
 }
 
+footer {
+  display: block;
+  width: 100%;
+  height: 10px;
+  position: relative;
+}
 .footer li {
   display: inline-block;
   margin: 0 auto;
@@ -157,9 +168,7 @@ button.last {
   margin-bottom: 350px;
 }
 
-p {
 
-}
 .hero-image {
     height: 30vh;
     background-image: url(images/cover-mobile.jpg);
@@ -179,20 +188,27 @@ p {
 
 .hero-image__text {
     z-index: 100;
-    padding: 3.5em;
+    padding: 1.5em;
     font-family: 'Petit Formal Script', cursive;
     -webkit-font-smoothing: antialiased;
     color: white;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.25em;
     text-align: center;
     margin-bottom: 0px;
-}
+  }
 
 h1 {
   margin-bottom: 0px;
   margin-top: 0px;
   font-weight: 400;
+}
+
+h1.item {
+  font-family: 'Open Sans', sans-serif;
+  color: #969696;
+  font-size: 1.25em;
+  margin-bottom: 2em;
 }
 
 h2 {
@@ -201,6 +217,16 @@ h2 {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+h2.category {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .75em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: .25em;
+  color: #c67f88;
 }
 
 .container-header {
@@ -232,7 +258,14 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
+.wrapper-left {
+  width: 100%;
+  float: left;
+}
+.wrapper-right {
+  width: 100%;
+  float: left;
+}
 @media only screen and (min-width: 650px) {
   .section {
     width: 49%;
@@ -244,6 +277,13 @@ h2 {
     float: left;
     padding-right: 0;
   }
+
+  .dresssection {
+    width: 45%;
+    float: left;
+    padding-right: 2%;
+  }
+
   button {
     padding-left: .5em;
     padding-right: .5em;
@@ -263,7 +303,6 @@ h2 {
     align-items: center;
     justify-content: center;
       height: 100%;
-
   }
 
   .hero-image__text {
@@ -275,6 +314,14 @@ h2 {
       color: white;
       font-size: 2em;
       text-align: center;
+  }
+  .wrapper-left {
+    width: 20%;
+    float: left;
+  }
+  .wrapper-right {
+    width: 80%;
+    float: left;
   }
 }
 
@@ -301,6 +348,7 @@ h2 {
 .container-header a:hover {
   color: #c67f88;
   }
+
 }
 
 @media only screen and (min-width: 880px) {
@@ -322,6 +370,12 @@ h2 {
       font-size: 2.5em;
       text-align: center;
   }
+  .dresssection {
+    width: 30%;
+    float: left;
+    padding-right: 2%;
+  }
+
 }
 
 @media only screen and (min-width: 1100px) {
