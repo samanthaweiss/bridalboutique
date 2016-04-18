@@ -30,6 +30,9 @@ a {
   text-decoration: none;
 }
 
+a.active {
+color: #c67f88;
+}
 .section {
   opacity: 1;
 }
@@ -47,6 +50,26 @@ a {
   opacity: .8;
   color: white;
 }
+
+
+.dresssection {
+  opacity: 1;
+}
+
+.dresssection:hover {
+  opacity: .8;
+  color: white;
+}
+
+.dresssectionlast {
+  opacity: 1;
+}
+
+.dresssectionlast:hover {
+  opacity: .8;
+  color: white;
+}
+
 
 .salebanner {
   background-color: #e3b489;
@@ -229,6 +252,13 @@ h2.category {
   color: #c67f88;
 }
 
+h3 {
+  font-size: .85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+}
+
 .container-header {
   text-align: center;
   padding: 0px 0;
@@ -243,9 +273,14 @@ h2.category {
   padding-right: 0px;
 }
 
+.container-header a.active {
+    color: #c67f88;
+}
+
 .container-header a:hover {
   color: #c67f88;
 }
+
 
 .nav-header {
     -ms-columns:2; -moz-columns:2; -webkit-columns:2; columns:2;
@@ -258,6 +293,8 @@ h2.category {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
 .wrapper-left {
   width: 100%;
   float: left;
@@ -265,6 +302,40 @@ h2.category {
 .wrapper-right {
   width: 100%;
   float: left;
+}
+nav.breadcrumb {
+  text-align: left;
+  margin-bottom: 3em;
+  list-style-type: none;
+  color: #969696;
+  font-family: 'Open Sans', sans-serif;
+    font-size: .75em;
+}
+
+a.breadcrumb {
+  text-align: left;
+  margin-bottom: 3em;
+  list-style-type: none;
+  color: #969696;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+
+}
+a.breadcrumb:hover {
+  color: #c67f88;
+  cursor: pointer;
+}
+nav.filter {
+  text-align: left;
+  list-style-type: none;
+  color: #969696;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.75em;
+}
+nav.filter li:hover {
+  color: #c67f88;
+  cursor: pointer;
 }
 @media only screen and (min-width: 650px) {
   .section {
