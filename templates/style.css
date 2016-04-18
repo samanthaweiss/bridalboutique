@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
 
@@ -25,6 +25,23 @@ header {
     position: relative;
     width: 100%;
 }
+
+a {
+  text-decoration: none;
+}
+
+.salebanner {
+  background-color: #e3b489;
+  padding: 12px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: .85em;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 ul {
   padding: 0;
   margin: 0 auto;
@@ -83,8 +100,8 @@ button {
   margin:0 auto; /* this will center  it */
   position:relative;
   background: #e8c6a7;
-  margin-top: -8em;
-  margin-bottom: 6em;
+  margin-top: -6em;
+  margin-bottom: 3.5em;
   padding: .75em;
   padding-left: 2em;
   padding-right: 2em;
@@ -128,7 +145,27 @@ button:hover {
   color: #c67f88;
 }
 
-
+.tile {
+  display:block; /* change this from inline-block */
+  width:70%; /* setting the width */
+  margin:0 auto; /* this will center  it */
+  position:relative;
+  font-family: 'Open Sans', sans-serif;
+    color: white;
+  margin-top: -350px;
+  margin-bottom: 350px;
+}
+h1.tile {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 2.5em;
+}
+h2.tile {
+  font-weight: 400;
+  margin-top: -320px;
+  margin-bottom: 235px;
+}
 
 .hero-image {
     height: 30vh;
@@ -157,7 +194,16 @@ button:hover {
     text-align: center;
 }
 
-
+@media only screen and (min-width: 880px) {
+  button {
+    margin-top: -8em;
+    margin-bottom: 6em;
+  }
+  .salebanner {
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+}
 
 @media only screen and (min-width: 650px) {
   .section {
