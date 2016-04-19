@@ -401,7 +401,7 @@ nav.filter li:hover {
   cursor: pointer;
 }
 
-form action {
+.form {
   text-align: left;
 }
 
