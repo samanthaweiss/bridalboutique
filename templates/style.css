@@ -171,6 +171,9 @@ button.book {
   font-size: .9em;
   cursor: pointer;
 }
+button.book:hover {
+  background-color: rgba(150, 150, 150, .2);
+}
 footer {
   display: block;
   width: 100%;
@@ -284,7 +287,7 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   color: #4a5464;
   font-size: 1.25em;
-  margin-top: .70em;
+  margin-top: 0em;
   margin-bottom: -10px;
 }
 p {
@@ -347,23 +350,24 @@ p.hashtag {
   float: left;
 }
 
-
 .wrapper-left-35 {
-  width: 35%;
+  width: 90%;
   float: left;
+  margin: 1em;
+  margin-bottom: 1em;
 }
 .wrapper-middle-15 {
-  width: 15%;
+  width: 90%;
   float: left;
-  margin-top: 3.3em;
-  margin-left: 1.5em;
+  margin: 1em;
+  margin-top: 1em;
 }
 
 .wrapper-right-45 {
-  width: 30%;
+  width: 70%;
   float: left;
-  margin-top: 2.2em;
-  margin-left: 1.5em;
+  margin: 1em;
+
 }
 
 nav.breadcrumb {
@@ -400,6 +404,10 @@ nav.filter li:hover {
   color: #c67f88;
   cursor: pointer;
 }
+img.mainbottom {
+display:none;
+}
+
 @media only screen and (min-width: 650px) {
   .section {
     width: 49%;
@@ -457,6 +465,23 @@ nav.filter li:hover {
     width: 80%;
     float: left;
   }
+  .wrapper-left-35 {
+    width: 40%;
+    float: left;
+  }
+  .wrapper-middle-15 {
+    display: none;
+  }
+  img.mainbottom {
+  width: 100%;
+  display:block;
+  margin-top: 1em;
+  }
+  .wrapper-right-45 {
+    width: 50%;
+    float: right;
+    margin-left: 0em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -508,6 +533,25 @@ nav.filter li:hover {
     width: 30%;
     float: left;
     padding-right: 2%;
+  }
+  .wrapper-left-35 {
+    width: 35%;
+    float: left;
+  }
+  .wrapper-middle-15 {
+    display:block;
+    width: 15%;
+    float: left;
+    margin-left: 1.5em;
+  }
+
+  .wrapper-right-45 {
+    width: 30%;
+    float: left;
+    margin-left: 1.5em;
+  }
+  img.mainbottom {
+  display:none;
   }
 
 }
