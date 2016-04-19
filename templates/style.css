@@ -400,6 +400,11 @@ nav.filter li:hover {
   color: #c67f88;
   cursor: pointer;
 }
+
+form {
+  text-align: left;
+}
+
 @media only screen and (min-width: 650px) {
   .section {
     width: 49%;
