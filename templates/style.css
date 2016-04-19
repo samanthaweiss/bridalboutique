@@ -401,11 +401,7 @@ nav.filter li:hover {
   cursor: pointer;
 }
 
-form action {
-  text-align: left;
-}
-
-fieldset {
+form action, fieldset {
   text-align: left;
 }
 
