@@ -405,7 +405,19 @@ form action {
   text-align: left;
 }
 
+fieldset {
+  text-align: left;
+}
+
 legend, label {
+  font-size: .85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+select name, option value {
   font-size: .85em;
   font-weight: bold;
   text-transform: uppercase;
