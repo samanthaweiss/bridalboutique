@@ -409,7 +409,7 @@ nav.filter li:hover {
   text-align: left;
 }
 
-legend, label, input type, option value {
+legend, label, {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: #4a5464;
