@@ -405,6 +405,10 @@ form action {
   text-align: left;
 }
 
+fieldset {
+  text-align: left;
+}
+
 @media only screen and (min-width: 650px) {
   .section {
     width: 49%;
