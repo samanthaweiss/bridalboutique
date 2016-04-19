@@ -403,10 +403,14 @@ nav.filter li:hover {
 
 .form {
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a5464;
 }
 
 .fieldset {
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a5464;
 }
 
 legend, label, {
