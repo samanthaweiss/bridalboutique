@@ -404,33 +404,10 @@ nav.filter li:hover {
   color: #c67f88;
   cursor: pointer;
 }
-<<<<<<< HEAD
 img.mainbottom {
 display:none;
 }
 
-=======
-
-.form {
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  color: #4a5464;
-}
-
-.fieldset {
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  color: #4a5464;
-}
-
-legend, label, {
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  color: #4a5464;
-}
-
-
->>>>>>> origin/gh-pages
 @media only screen and (min-width: 650px) {
   .section {
     width: 49%;
