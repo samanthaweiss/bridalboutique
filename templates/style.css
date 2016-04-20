@@ -93,6 +93,20 @@ color: #c67f88;
 .group {
   position: relative;
 }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+}
 ul {
   padding: 0;
   margin: 0 auto;
