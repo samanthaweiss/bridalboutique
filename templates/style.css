@@ -15,7 +15,7 @@ body {
 }
 
 .maxwidth {
-  padding: 1em;
+  padding: 0em;
   margin: 0 auto;
   max-width: 1230px;
 }
@@ -382,6 +382,7 @@ p.hashtag {
 nav.breadcrumb {
   text-align: left;
   margin-bottom: 3em;
+  margin-left:1.30em;
   list-style-type: none;
   color: #969696;
   font-family: 'Open Sans', sans-serif;
@@ -445,7 +446,7 @@ legend, label, {
   .section {
     width: 49%;
     float: left;
-    padding-right: 2%;
+    margin-right: 2%;
   }
   .sectionlast {
     width: 49%;
@@ -874,6 +875,7 @@ xgallery
 .cd-gallery .cd-fail-message {
   display: none;
   text-align: center;
+  color: #4a5464;
 }
 @media only screen and (min-width: 768px) {
   .cd-gallery {
@@ -955,6 +957,7 @@ xfilter
 }
 .cd-filter form {
   padding: 70px 20px;
+    color: #4a5464;
 }
 
 .cd-filter .cd-close {
@@ -1099,6 +1102,7 @@ xcustom form elements
   border-radius: 0;
   background-color: #ffffff;
   border: 2px solid #e6e6e6;
+    color: #4a5464;
 }
 .cd-filter-block input[type='search'],
 .cd-filter-block input[type='text'],
@@ -1161,6 +1165,8 @@ xcustom form elements
   position: relative;
   margin-bottom: .8em;
   text-align: left;
+  list-style-type: none;
+
 }
 .cd-filter-block .list li:last-of-type {
   margin-bottom: 0;
