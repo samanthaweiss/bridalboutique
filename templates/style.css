@@ -58,23 +58,16 @@ color: #c67f88;
 }
 
 
-.dresssection {
+a.image {
   opacity: 1;
 }
 
-.dresssection:hover {
+a.image:hover {
   opacity: .8;
   color: white;
 }
 
-.dresssectionlast {
-  opacity: 1;
-}
 
-.dresssectionlast:hover {
-  opacity: .8;
-  color: white;
-}
 
 
 .salebanner {
@@ -138,9 +131,6 @@ img.logo {
   width: 100%;
 }
 
-.dresssection {
-  width: 100%;
-}
 
 button {
   display:block; /* change this from inline-block */
@@ -463,11 +453,6 @@ legend, label, {
     padding-right: 0;
   }
 
-  .dresssection {
-    width: 45%;
-    float: left;
-    padding-right: 2%;
-  }
 
   button {
     padding-left: .5em;
@@ -572,11 +557,7 @@ legend, label, {
       font-size: 2.5em;
       text-align: center;
   }
-  .dresssection {
-    width: 30%;
-    float: left;
-    padding-right: 2%;
-  }
+
   .wrapper-left-35 {
     width: 35%;
     float: left;
@@ -870,7 +851,7 @@ xgallery
 .cd-gallery {
   padding: 26px 5%;
   width: 100%;
-  background: #eee;
+  background: #fff;
   max-width: 1230px;
   text-align: center;
 
@@ -1038,7 +1019,7 @@ xfilter
 @media only screen and (min-width: 1170px) {
   .cd-filter-trigger {
     width: auto;
-    left: 18em;
+    left: 20.25em;
     text-indent: 0;
     color: #9a9a9a;
     text-transform: uppercase;
@@ -1055,6 +1036,7 @@ xfilter
   }
   .cd-filter-trigger.filter-is-visible, .cd-filter-trigger.filter-is-visible:hover {
     color: #969696;
+    left: 12em;
   }
 
 }
@@ -1140,8 +1122,7 @@ xcustom form elements
 }
 .cd-filter-block input[type='search'] {
   /* custom style for the search element */
-  border-color: transparent;
-  background-color: #e6e6e6;
+
   /* prevent jump - ios devices */
   font-size: 1.6rem !important;
 }
@@ -1167,7 +1148,7 @@ xcustom form elements
   display: block;
   width: 16px;
   height: 16px;
-  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+  background: url("img/cd-icon-arrow.svg") no-repeat center center;
   pointer-events: none;
 }
 .cd-filter-block select {
