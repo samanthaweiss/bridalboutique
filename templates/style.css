@@ -652,7 +652,6 @@ Main Components
 .cd-main-content {
   position: relative;
   min-height: 100vh;
-  margin-top: 6em;
   margin-left: -8em;
 }
 
@@ -852,7 +851,7 @@ xgallery
   padding: 26px 5%;
   width: 100%;
   background: #fff;
-  max-width: 1230px;
+  max-width: 1255px;
   text-align: center;
 
 }
@@ -1019,7 +1018,7 @@ xfilter
 @media only screen and (min-width: 1170px) {
   .cd-filter-trigger {
     width: auto;
-    left: 20.25em;
+    left: 19.25em;
     text-indent: 0;
     color: #9a9a9a;
     text-transform: uppercase;
