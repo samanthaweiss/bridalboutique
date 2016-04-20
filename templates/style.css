@@ -432,13 +432,14 @@ display:none;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: #4a5464;
-  border:0px;
+  border: 0;
 }
 
 legend, label, {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: #4a5464;
+  border: 0;
 }
 
 
