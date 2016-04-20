@@ -428,6 +428,10 @@ display:none;
   color: #4a5464;
 }
 
+fieldset {
+  border: 0;
+}
+
 .fieldset {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
@@ -439,7 +443,6 @@ legend, label, {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: #4a5464;
-  border: 0;
 }
 
 
