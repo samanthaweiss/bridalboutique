@@ -1,75 +1,178 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <header>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Barb's Bridal Boutique</title>
-    <meta name="description" content="Home">
+	<html lang="en-us">
+	  <header>
+			<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Barb's Bridal Boutique</title>
+	    <meta name="description" content="Home">
+			<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
-  <header>
-    <a href="index.html"><img class="logo" alt="Barb's Bridal Boutique Logo" src="images/barb.svg"></a>
-   <hr>
-            <div class="container-header">
-                  <ul class="nav-header">
-                    <li><a href="appointments.html">Appointments</a></li>
-                    <li><a class="active" href="dresses.html">Dresses</a></li>
-                    <li><a href="accessories.html">Accessories</a></li>
-                    <li><a href="designers.html">Designers</a></li>
-                  </ul>
-            </div>
+			<link rel="stylesheet" href="style.css"> <!-- Resource style -->
+			<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<div class="maxwidth">
 
-  <hr>
+	  <header>
+	  <a href="index.html"><img class="logo" alt="Barb's Bridal Boutique Logo" src="images/barb.svg"></a>
+	   <hr>
+	            <div class="container-header">
+	                  <ul class="nav-header">
+	                    <li><a href="appointments.html">Appointments</a></li>
+	                    <li><a href="dresses.html">Dresses</a></li>
+	                    <li><a href="accessories.html">Accessories</a></li>
+	                    <li><a href="designers.html">Designers</a></li>
+	                  </ul>
+	            </div>
 
-</header>
-<body>
+	  <hr>
+
+	</header>
+	<body>
 <a href="dresses.html"><div class="salebanner">Spring Sale 30% Off Select Dresses</div></a>
 <nav class="breadcrumb">
-  <li><a class="breadcrumb" href="index.html">Home</a> > <a class="active" href="dresses.html">Dresses</a></li>
-</nav>
-<div class="wrapper-left">
-    <nav class="filter">
-      <h3>Filter</h3>
-      <li>Designer</li>
-      <li>Price</li>
-      <li>Neckline</li>
-      <li>Length</li>
-      <li>Fabric</li>
-      <li>Size</li>
-    </nav>
-</div>
-<div class="wrapper-right">
-    <div class="group">
-      <a class="image" href="style1340.html"><div class="dresssection"><img class="main" src="images/1340front.jpg">
-            <h2 class="category">Mermaid</h2><h1 class="item">Style 1340</h1></a>
-      </div></a>
-        <a class="image" href="#"><div class="dresssection"><img class="main" src="images/1560front.jpg">
-          <h2 class="category">Mermaid</h2><h1 class="item">Style 1560</h1></a>
-      </div></a>
+  <li><a class="breadcrumb" href="index.html">Home</a> > <a class="active" href="dresses.html">Dresses</a> </li>
+</nav></div>
+		</div>
+	<main class="cd-main-content">
+		<div class="wrapper-center">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder">
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li>
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".classic"><a href="#0" data-type="classic">Classic</a></li>
+					<li class="filter" data-filter=".modern"><a href="#0" data-type="modern">Modern</a></li>
+					<li class="filter" data-filter=".sale"><a href="#0" data-type="sale">On Sale Now</a></li>
 
-      <a class="image" href="#"><div class="dresssection"><img class="main" src="images/1568front.jpg">
-            <h2 class="category">A-Line</h2><h1 class="item">Style 1568</h1></a>
-      </div></a>
-      <a class="image" href="#"><div class="dresssection"><img class="main" src="images/1342front.jpg">
-            <h2 class="category">Mermaid</h2><h1 class="item">Style 1342</h1></a>
-      </div></a>
-      <a class="image" href="#"><div class="dresssection"><img class="main" src="images/2746back.jpg">
-            <h2 class="category">Mermaid</h2><h1 class="item">Style 2746</h1></a>
-      </div></a>
-      <a class="image" href="#"><div class="dresssection"><img class="main" src="images/2897back.jpg">
-            <h2 class="category">A-Line</h2><h1 class="item">Style 2897</h1></a>
-      </div></a>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
 
-</div>
-      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
-  </body>
-</main>
+		<section class="cd-gallery">
+			<ul>
+				  <a class="image" href="style1340.html"><li class="mix modern check1 option3 check13"><img src="images/1340front.jpg" alt="Image 1"></li></a>
+					<a class="image" href="">	<li class="mix classic sale check1  option2 check14"><img src="images/2855front.jpg" alt="Image 11"></li></a>
+					<a class="image" href=""><li class="mix modern check1 option2 check13"><img src="images/1560front.jpg" alt="Image 2"></li></a>
+					<a class="image" href=""><li class="mix classic sale check1 option3 check15"><img src="images/2897back.jpg" alt="Image 6"></li></a>
+					<a class="image" href=""><li class="mix modern check1 option3 check11"><img src="images/2863front.jpg" alt="Image 9"></li></a>
+					<a class="image" href=""><li class="mix classic sale check1 option1 check12"><img src="images/1568front.jpg" alt="Image 3"></li></a>
+				<a class="image" href=""><li class="mix modern sale check1 option4 check11"><img src="images/1342front.jpg" alt="Image 4"></li></a>
+				<a class="image" href=""><li class="mix modern check1 option4 check13"><img src="images/2857front.jpg" alt="Image 10"></li></a>
+				<a class="image" href=""><li class="mix modern check1 option2 check14"><img src="images/2746back.jpg" alt="Image 5"></li></a>
+				<a class="image" href=""><li class="mix modern check1 option1 check16"><img src="images/1342front.jpg" alt="Image 7"></li></a>
+				<a class="image" href=""><li class="mix modern sale check2 option4 check13"><img src="images/2866front.jpg" alt="Image 8"></li></a>
+				<a class="image" href=""><li class="mix classic check1  option1 check15"><img src="images/2853front.jpg" alt="Image 12"></li></a>
+				<a class="image" href=""><li class="mix modern check1 option1 check16"><img src="images/2812front.jpg" alt="Image 12"></li></a>
+				<a class="image" href=""><li class="mix modern check1  option1 check13"><img src="images/2800front.jpg" alt="Image 12"></li></a>
+				<a class="image" href=""><li class="mix modern check2  option1check12"><img src="images/2762front.jpg" alt="Image 12"></li></a>
+				<a class="image" href=""><li class="mix modern check2  option1check14"><img src="images/2753front.jpg" alt="Image 12"></li></a>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">Nothing there. Try a different search.</div>
+		</section> <!-- cd-gallery -->
 
-<!--<footer>
+		<div class="cd-filter">
+			<form>
+				<div class="cd-filter-block">
+					<h4>Search</h4>
+
+					<div class="cd-filter-content">
+						<input type="search" placeholder="Style Number or Keyword">
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Length</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">Long</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">Short</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Tea Length</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Price</h4>
+
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Price Range</option>
+								<option value=".option1">$500 &ndash; 1000</option>
+								<option value=".option2">$1000 &ndash; 1500</option>
+								<option value=".option3">$2000 &ndash; 2500</option>
+								<option value=".option4">$2500 &ndash; more</option>
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Fabric</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".check11" type="checkbox" id="checkbox11">
+								<label class="checkbox-label" for="checkbox11">Chiffon</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check12" type="checkbox" id="checkbox12">
+							<label class="checkbox-label" for="checkbox12">Satin</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check13" type="checkbox" id="checkbox13">
+							<label class="checkbox-label" for="checkbox13">Tulle</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check14" type="checkbox" id="checkbox4">
+							<label class="checkbox-label" for="checkbox4">Satin</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check15" type="checkbox" id="checkbox5">
+							<label class="checkbox-label" for="checkbox5">Silk</label>
+							<li>
+								<input class="filter" data-filter=".check16" type="checkbox" id="checkbox6">
+								<label class="checkbox-label" for="checkbox6">Tulle</label>
+							</li>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+			</form>
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filters</a>
+
+	</main>
+</div></div>
+	<!-- cd-main-content -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<footer>
 <ul class="footer" role="navigation">
   <li><a href="contact.html">About</a></li>
   <li><a href="calendar.html">Calendar</a></li>
   <li><a href="stories.html">Stories</a></li>
 </ul>
-</footer>-->
+</footer>
+</body>
 </html>
