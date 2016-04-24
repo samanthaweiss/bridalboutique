@@ -445,6 +445,19 @@ legend, label, {
   color: #4a5464;
 }
 
+pullquote, cite, blockquote {
+  font-family: 'Petit Formal Script', cursive;
+  -webkit-font-smoothing: antialiased;
+  color: #969696;
+}
+
+br {
+  color: #4a5464;
+}
+.contact info {
+  width: 50%;
+  padding: 2em;
+}
 
 @media only screen and (min-width: 650px) {
   .section {
