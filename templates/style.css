@@ -460,9 +460,10 @@ h1, h4, {
   text-align: left;
 }
 
-figure {
+b {
   text-align: left;
 }
+
 @media only screen and (min-width: 650px) {
   .section {
     width: 49%;
