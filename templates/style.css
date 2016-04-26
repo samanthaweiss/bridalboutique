@@ -465,9 +465,6 @@ h1, h4, {
   margin-top: 1.2em;
 }
 
-.hours {
-  text-align: left;
-}
 
 @media only screen and (min-width: 650px) {
   .section {
