@@ -46,6 +46,10 @@ color: #c67f88;
 .section:hover {
   opacity: .8;
   color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .sectionlast {
@@ -55,6 +59,10 @@ color: #c67f88;
 .sectionlast:hover {
   opacity: .8;
   color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 
@@ -81,11 +89,16 @@ a.image:hover {
   font-weight: 400;
   letter-spacing: 1px;
   opacity: 1;
+
 }
 
 .salebanner:hover {
   background-color:rgba(255,255,255);
   opacity: 0.8;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .group {
@@ -182,6 +195,10 @@ button.book {
 }
 button.book:hover {
   background-color: rgba(150, 150, 150, .2);
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 footer {
   display: block;
@@ -210,6 +227,10 @@ footer {
 
 .footer li a:hover {
   color: #c67f88;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .tile {
@@ -334,6 +355,10 @@ p.hashtag {
 
 .container-header a:hover {
   color: #c67f88;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 
@@ -401,6 +426,10 @@ a.breadcrumb {
 a.breadcrumb:hover {
   color: #c67f88;
   cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 nav.filter {
   text-align: left;
