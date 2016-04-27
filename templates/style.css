@@ -480,15 +480,16 @@ legend, label, {
   color: #4a5464;
 }
 
+legend {
+  padding-top: 2.5em;
+}
+
 pullquote, cite, blockquote {
   font-family: 'Petit Formal Script', cursive;
   -webkit-font-smoothing: antialiased;
-<<<<<<< HEAD
   color: #969696;
   font-size: 1.5em;
-=======
   color: #445363;
->>>>>>> origin/gh-pages
 }
 
 h1 {
@@ -533,7 +534,7 @@ h4 {
 }
 .bookanappointment {
   margin-left: 1em;
-  margin right: 1em;
+  margin-right: 1em;
 }
 
 .calendar {
