@@ -18,6 +18,7 @@ body {
   padding: 0em;
   margin: 0 auto;
   max-width: 1230px;
+  text-align: center;
 }
 
 
@@ -105,6 +106,11 @@ a.image:hover {
     transition: all 0.2s ease-in-out;
 }
 
+.saleitem {
+  position: absolute;
+  background: white;
+  margin-bottom: -30em;
+}
 .group {
   position: relative;
 }
@@ -185,11 +191,11 @@ button.book {
   margin:0 auto; /* this will center  it */
   position:relative;
   background-color: white;
-  border-color: #969696;
+  border-color: #445363;
   border-style: solid;
   border-width: thin;
   text-align: center;
-  color: #969696;
+  color: #445363;
   font-weight: lighter;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
@@ -225,7 +231,7 @@ footer {
   font-family: 'Open Sans', sans-serif;
   font-size: .85em;
   text-decoration: none;
-  color: #969696;
+  color: #445363;
   padding-right: 3em;
 }
 
@@ -286,7 +292,7 @@ h1 {
 
 h1.item {
   font-family: 'Open Sans', sans-serif;
-  color: #969696;
+  color: #445363;
   font-size: 1.25em;
   margin-bottom: 2em;
 }
@@ -333,7 +339,7 @@ p {
 p.hashtag {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  color:#969696;
+  color:#445363;
   font-size: .75em;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -346,7 +352,7 @@ p.hashtag {
 }
 
 .container-header a {
-  color: #969696;
+  color: #445363;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   padding-left: 0px;
@@ -411,7 +417,7 @@ p.hashtag {
 nav.breadcrumb {
   text-align: left;
   margin-bottom: 3em;
-  margin-left:1.30em;
+  margin-left:2em;
   list-style-type: none;
   color: #969696;
   font-family: 'Open Sans', sans-serif;
@@ -438,7 +444,7 @@ a.breadcrumb:hover {
 nav.filter {
   text-align: left;
   list-style-type: none;
-  color: #969696;
+  color: #445363;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.75em;
@@ -477,7 +483,7 @@ legend, label, {
 pullquote, cite, blockquote {
   font-family: 'Petit Formal Script', cursive;
   -webkit-font-smoothing: antialiased;
-  color: #969696;
+  color: #445363;
 }
 
 br {
@@ -583,7 +589,7 @@ h1, h4, {
   padding-bottom: 6px;
 }
 .container-header a {
-  color: #969696;
+  color: #445363;
   font-family: 'Open Sans', sans-serif;
   font-size: .9em;
   padding-left: 40px;
@@ -710,11 +716,11 @@ Main Components
 .cd-main-content {
   position: relative;
   min-height: 100vh;
-  margin-left: -8em;
+  max-width: 1250px;
 }
 
 .wrapper-center {
-  margin-left: 8em;
+  margin-left: 0em;
 }
 .cd-main-content:after {
   content: "";
@@ -866,7 +872,7 @@ xtab-filter
     display: inline-block;
     padding: 0 1em;
     width: auto;
-    color: #9a9a9a;
+    color: #445363;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.3rem;
@@ -977,6 +983,7 @@ xfilter
 -------------------------------- */
 .cd-filter {
   position: absolute;
+  margin-left: -9999px;
   top: 0;
   width: 280px;
   height: 100%;
@@ -1039,6 +1046,7 @@ xfilter
   text-decoration: underline;
 }
 .cd-filter.filter-is-visible {
+  margin-left: auto;
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -1060,7 +1068,8 @@ xfilter
 .cd-filter-trigger {
   position: absolute;
   top: 0;
-  left: 8.25em;
+  left: 2em;
+
   height: 50px;
   line-height: 50px;
   width: 60px;
@@ -1078,9 +1087,9 @@ xfilter
 @media only screen and (min-width: 1170px) {
   .cd-filter-trigger {
     width: auto;
-    left: 19.25em;
+
     text-indent: 0;
-    color: #9a9a9a;
+    color: #445363;
     text-transform: uppercase;
     font-size: 1.3rem;
     font-weight: 700;
@@ -1094,8 +1103,8 @@ xfilter
     color:#c67f88;
   }
   .cd-filter-trigger.filter-is-visible, .cd-filter-trigger.filter-is-visible:hover {
-    color: #969696;
-    left: 12em;
+    color: #445363;
+    left: 2em;
   }
 
 }
