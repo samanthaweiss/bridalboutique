@@ -445,18 +445,14 @@ pullquote, cite, blockquote {
   font-family: 'Petit Formal Script', cursive;
   -webkit-font-smoothing: antialiased;
   color: #969696;
+  font-size: 1.5em;
 }
 
-br {
-  color: #4a5464;
+h1 {
+  text-align: center;
 }
 
-.contact info {
-  width: 50%;
-  padding: 2em;
-}
-
-h1, h4, {
+h4 {
   text-align: left;
 }
 
@@ -465,6 +461,82 @@ h1, h4, {
   margin-top: 1.2em;
 }
 
+.title {
+  float: left;
+  width: 33.3%;
+  padding-top: 3em;
+}
+
+.info {
+  float: left;
+  width: 100%;
+}
+
+.names {
+  text-align: center;
+  margin-bottom: .50em;
+}
+
+.employees {
+  float: left;
+  width: 32%;
+}
+
+.appointmentform {
+  float: left;
+  width: 33.3%;
+  padding-top: 1.3em;
+  padding-left: 1em;
+}
+.bookanappointment {
+  margin-left: 1em;
+  margin right: 1em;
+}
+
+.calendar {
+  float: left;
+  width: 22%;
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    width: 100%;
+    padding-top: 3em;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .names {
+    text-align: center;
+    margin-bottom: .50em;
+  }
+
+  .employees {
+    width: 100%;
+  }
+
+  .appointmentform {
+    width: 100%;
+    padding-top: 1.3em;
+  }
+
+  .form {
+    padding-left: 7em;
+  }
+
+  .fieldset {
+    padding-left: 6em;
+  }
+  .bookanappointment {
+    padding-left: : 1em;
+    padding-right: 2em;
+  }
+  h4 {
+    padding-left: 1em;
+  }
+}
 
 @media only screen and (min-width: 650px) {
   .section {
@@ -537,6 +609,7 @@ h1, h4, {
   }
 }
 
+
 @media only screen and (min-width: 768px) {
   .nav-header li {
     width: auto;
@@ -560,7 +633,6 @@ h1, h4, {
 .container-header a:hover {
   color: #c67f88;
   }
-
 }
 
 @media only screen and (min-width: 880px) {
@@ -602,13 +674,20 @@ h1, h4, {
   img.mainbottom {
   display:none;
   }
-
 }
 
 @media only screen and (min-width: 1100px) {
   .hero-image__text {
       padding: 0em;
 
+  }
+
+  h4 {
+    padding-left: 1em;
+  }
+
+  .aboutappointments {
+    padding-left: 1em;
   }
 }
 
