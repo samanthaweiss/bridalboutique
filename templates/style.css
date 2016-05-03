@@ -514,10 +514,11 @@ h4 {
 .dates {
   text-align: left;
   margin-top: 1.2em;
+    color: #4a5464;
 }
 
+
 .title {
-  float: left;
   width: 33.3%;
   padding-top: 3em;
 }
@@ -553,8 +554,23 @@ h4 {
   width: 48%;
   margin-right:2%;
   padding-top: 2em;
-
 }
+
+.main {
+  text-align: left;
+}
+
+.storyimages {
+  float: left;
+  width: 33.3%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.text {
+  padding: 1em;
+}
+
 
 @media screen and (max-width: 900px) {
   .title {
@@ -591,7 +607,32 @@ h4 {
     padding-left: : 1em;
     padding-right: 2em;
   }
+<<<<<<< HEAD
 
+=======
+  h4 {
+    padding-left: 1em;
+  }
+
+  .calendar {
+    width: 100%;
+    padding: 1.8em;
+  }
+
+  .storyimages {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .text {
+    padding: 1em;
+  }
+
+  .sharestory {
+    width: 5em;
+  }
+>>>>>>> origin/gh-pages
 }
 
 @media only screen and (min-width: 650px) {
