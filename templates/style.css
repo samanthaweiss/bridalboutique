@@ -40,6 +40,7 @@ a {
 a.active {
 color: #c67f88;
 }
+
 .section {
   opacity: 1;
 }
@@ -150,10 +151,18 @@ img.logo {
     padding-bottom: 20px;
 }
 
+img.stories {
+  width: 100%;
+}
+
 .section {
   width: 100%;
 }
 
+figure.stories {
+  margin: 0;
+  padding-top: 2em;
+}
 
 button {
   display:block; /* change this from inline-block */
@@ -241,6 +250,10 @@ footer {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+
+.footer li a.active {
+  color: #c67f88;
 }
 
 .tile {
@@ -519,13 +532,13 @@ h4 {
 
 
 .title {
-  width: 33.3%;
+  width: 30%;
   padding-top: 3em;
 }
 
 .info {
   float: left;
-  width: 100%;
+
 }
 
 .names {
@@ -563,17 +576,17 @@ h4 {
 .storyimages {
   float: left;
   width: 33.3%;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 3em;
 }
 
-.text {
-  padding: 1em;
-}
+
 .padding {
   padding: 1.5em;
+  text-align: left;
 }
-
+.responsebutton {
+  width: 30%;
+}
 @media screen and (max-width: 900px) {
   .title {
     width: 100%;
@@ -583,7 +596,9 @@ h4 {
   .info {
     width: 100%;
   }
-
+  .responsebutton {
+    width: 100%;
+  }
 
   .calendar {
     float: left;
@@ -599,6 +614,7 @@ h4 {
 
   .padding {
     padding: 1em;
+    text-align: left;
   }
   .employees {
     width: 100%;
@@ -621,21 +637,15 @@ h4 {
     padding-right: 2em;
   }
 
-
-
-
   .storyimages {
     width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-right: em;
   }
 
-  .text {
-    padding: 1em;
-  }
+
 
   .sharestory {
-    width: 5em;
+    width: 100%;
   }
 
 }
