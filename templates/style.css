@@ -154,7 +154,9 @@ img.logo {
 img.stories {
   width: 100%;
 }
-
+iframe {
+  padding-top: 20px;
+}
 .section {
   width: 100%;
 }
@@ -546,9 +548,11 @@ h4 {
 }
 
 .names {
-  text-align: center;
+  text-align: left;
   margin-bottom: .50em;
 }
+
+
 
 .employees {
   float: left;
@@ -600,6 +604,15 @@ h4 {
 .responsebutton {
   width: 30%;
 }
+
+b {
+  text-align: left!important;
+}
+
+figure {
+  margin: 0;
+  margin-right: 15px;
+}
 @media screen and (max-width: 900px) {
   .title {
     width: 100%;
@@ -621,7 +634,7 @@ h4 {
 
   }
   .names {
-    text-align: center;
+    text-align: left;
     margin-bottom: .50em;
   }
 
