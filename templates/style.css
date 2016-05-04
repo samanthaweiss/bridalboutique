@@ -40,6 +40,7 @@ a {
 a.active {
 color: #c67f88;
 }
+
 .section {
   opacity: 1;
 }
@@ -150,10 +151,18 @@ img.logo {
     padding-bottom: 20px;
 }
 
+img.stories {
+  width: 100%;
+}
+
 .section {
   width: 100%;
 }
 
+figure.stories {
+  margin: 0;
+  padding-top: 2em;
+}
 
 button {
   display:block; /* change this from inline-block */
@@ -241,6 +250,10 @@ footer {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+
+.footer li a.active {
+  color: #c67f88;
 }
 
 .tile {
@@ -490,10 +503,25 @@ pullquote, cite, blockquote {
   color: #969696;
   font-size: 1.5em;
   color: #445363;
+
+}
+blockquote {
+  text-align: center;
 }
 
 h1 {
   text-align: center;
+
+}
+
+h5 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a5464;
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0em;
 }
 
 h4 {
@@ -503,17 +531,18 @@ h4 {
 .dates {
   text-align: left;
   margin-top: 1.2em;
+    color: #4a5464;
 }
 
+
 .title {
-  float: left;
-  width: 33.3%;
+  width: 30%;
   padding-top: 3em;
 }
 
 .info {
   float: left;
-  width: 100%;
+
 }
 
 .names {
@@ -539,8 +568,9 @@ h4 {
 
 .calendar {
   float: left;
-  width: 50%;
-  padding: 1.8em;
+  width: 46%;
+  margin-right:2%;
+  padding-top: 2em;
 }
 
 .main {
@@ -549,14 +579,27 @@ h4 {
 
 .storyimages {
   float: left;
+<<<<<<< HEAD
   width: 33.3%;
   padding-left: 1em;
   padding-right: 1em;
 }
 
 
+=======
+  width: 100%;
+  padding-right: 2em;
+}
+>>>>>>> origin/gh-pages
 
 
+.padding {
+  padding: 1.5em;
+  text-align: left;
+}
+.responsebutton {
+  width: 30%;
+}
 @media screen and (max-width: 900px) {
   .title {
     width: 100%;
@@ -566,12 +609,26 @@ h4 {
   .info {
     width: 100%;
   }
+  .responsebutton {
+    width: 100%;
+  }
 
+  .calendar {
+    float: left;
+    width: 100%;
+    margin-right:2%;
+    padding-top: 2em;
+
+  }
   .names {
     text-align: center;
     margin-bottom: .50em;
   }
 
+  .padding {
+    padding: 1em;
+    text-align: left;
+  }
   .employees {
     width: 100%;
   }
@@ -592,24 +649,21 @@ h4 {
     padding-left: : 1em;
     padding-right: 2em;
   }
-  h4 {
-    padding-left: 1em;
-  }
-
-  .calendar {
-    width: 100%;
-    padding: 1.8em;
-  }
 
   .storyimages {
     width: 100%;
-    padding-left: 1em;
     padding-right: 1em;
   }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/gh-pages
   .sharestory {
-    width: 5em;
+    width: 100%;
   }
+
 }
 
 
@@ -683,6 +737,11 @@ h4 {
     float: right;
     margin-left: 0em;
   }
+  .storyimages {
+    float: left;
+    width: 33.3%;
+    padding-right: 3em;
+  }
 }
 
 
@@ -716,6 +775,7 @@ h4 {
     margin-top: -8em;
     margin-bottom: 6em;
   }
+
   .salebanner {
     font-size: 1em;
     letter-spacing: 2px;
@@ -758,9 +818,6 @@ h4 {
 
   }
 
-  h4 {
-    padding-left: 1em;
-  }
 
   .aboutappointments {
     padding-left: 1em;
