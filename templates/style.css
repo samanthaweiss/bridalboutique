@@ -503,6 +503,10 @@ pullquote, cite, blockquote {
   color: #969696;
   font-size: 1.5em;
   color: #445363;
+
+}
+blockquote {
+  text-align: center;
 }
 
 h1 {
@@ -575,8 +579,8 @@ h4 {
 
 .storyimages {
   float: left;
-  width: 33.3%;
-  padding-right: 3em;
+  width: 100%;
+  padding-right: 2em;
 }
 
 
@@ -639,7 +643,7 @@ h4 {
 
   .storyimages {
     width: 100%;
-    padding-right: em;
+    padding-right: 1em;
   }
 
 
@@ -719,6 +723,11 @@ h4 {
     float: right;
     margin-left: 0em;
   }
+  .storyimages {
+    float: left;
+    width: 33.3%;
+    padding-right: 3em;
+  }
 }
 
 
@@ -752,6 +761,7 @@ h4 {
     margin-top: -8em;
     margin-bottom: 6em;
   }
+
   .salebanner {
     font-size: 1em;
     letter-spacing: 2px;
