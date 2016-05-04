@@ -556,7 +556,8 @@ h4 {
 
 .employees {
   float: left;
-  width: 32%;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 .appointmentform {
@@ -583,18 +584,10 @@ h4 {
 
 .storyimages {
   float: left;
-<<<<<<< HEAD
   width: 33.3%;
   padding-left: 1em;
   padding-right: 1em;
 }
-
-
-=======
-  width: 100%;
-  padding-right: 2em;
-}
->>>>>>> origin/gh-pages
 
 
 .padding {
@@ -608,7 +601,9 @@ h4 {
 b {
   text-align: left!important;
 }
-
+.additional {
+  margin-top: 30px;
+}
 figure {
   margin: 0;
   margin-right: 15px;
@@ -642,9 +637,7 @@ figure {
     padding: 1em;
     text-align: left;
   }
-  .employees {
-    width: 100%;
-  }
+
 
   .appointmentform {
     width: 100%;
@@ -692,7 +685,10 @@ figure {
     float: left;
     padding-right: 0;
   }
-
+  .employees {
+    float: left;
+    width: 33%;
+  }
 
   button {
     padding-left: .5em;
