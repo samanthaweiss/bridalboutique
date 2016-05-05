@@ -584,7 +584,7 @@ h4 {
 
 .storyimages {
   float: left;
-  width: 33.3%;
+  width: 30%;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -743,7 +743,7 @@ figure {
   }
   .storyimages {
     float: left;
-    width: 33.3%;
+    width: 30%;
     padding-right: 3em;
   }
 }
