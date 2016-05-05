@@ -608,6 +608,7 @@ figure {
   margin: 0;
   margin-right: 15px;
 }
+
 @media screen and (max-width: 900px) {
   .title {
     width: 100%;
@@ -657,19 +658,13 @@ figure {
   }
 
   .storyimages {
-    width: 100%;
+    
     padding-right: 1em;
   }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/gh-pages
   .sharestory {
     width: 100%;
   }
-
 }
 
 
