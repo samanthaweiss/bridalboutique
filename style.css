@@ -1,26 +1,51 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  padding-left: 6em;
-  padding-top: .5em;
-  padding-bottom: 1em;
-  color: #445363;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h2 {
-  padding-top: .45em;
-  margin-bottom: .25em;
+body {
+    padding-bottom: 1em;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 8em;
+    max-width: 1024px;
 }
 
 ul {
    list-style-type: none;
     padding: 0;
+    margin-bottom: 2em;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a5464;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  letter-spacing: .02em;
+}
+
+li {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a5464;
+  margin-left: .5em;
+  line-height: 1.5;
+}
+
+b {
+  font-weight: bold;
+  color: #4a5464;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #4a5464;
 }
 
 a:hover {
@@ -29,8 +54,9 @@ a:hover {
 }
 
 img.logo {
-    width: 250px;
+    width: 180px;
     padding-bottom: 40px;
+    padding-top: 10px;
 }
 
 hr {
@@ -39,7 +65,18 @@ hr {
   padding-left: 6em;
 	border-top: 1px solid #8c8b8b;
 }
-
+header {
+  background-color: #fff;
+}
+header {
+  position: fixed;
+  height: 110px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
 @media only screen and (max-width: 800px) {
   img.logo {
       width: 250px;

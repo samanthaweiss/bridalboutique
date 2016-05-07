@@ -227,8 +227,8 @@ hr {
 }
 
 img.logo {
-    width: 200px;
-    padding-top: 15px;
+    width: 180px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -585,7 +585,7 @@ input, textarea, select {
 
 header {
   position: fixed;
-  height: 130px;
+  height: 110px;
   width: 100%;
   top: 0;
   left: 0;
@@ -597,7 +597,7 @@ header nav {
 }
 @media only screen and (min-width: 1024px) {
   header {
-    height: 130px;
+    height: 110px;
   }
   header:after {
     content: "";
