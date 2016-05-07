@@ -22,6 +22,7 @@ xPatterns
   background: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
+  width: 100%;
 }
 
 /* --------------------------------
@@ -139,15 +140,128 @@ h1 {
   margin: 0 0 .4em;
   font-family: "Open Sans", sans-serif;
 }
+
+h3 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a5464;
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: .3em;
+}
+
+p {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a5464;
+  margin-left: .5em;
+}
+
+b {
+  font-weight: bold;
+  color: #4a5464;
+}
+
+a {
+  text-decoration: none;
+  color: #c67f88;
+}
+
+
+a:hover {
+  color: #c67f88;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.container-header {
+  text-align: center;
+  padding: 0px 0;
+  margin-top: 0px;
+}
+
+.container-header a {
+  color: #445363;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container-header a.active {
+    color: #c67f88;
+}
+
+.container-header a:hover {
+  color: #c67f88;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.nav-header {
+    -ms-columns:2; -moz-columns:2; -webkit-columns:2; columns:2;
+}
+
+.nav-header li {
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: 0;
+   height: 1px;
+   background: #d4d4d4;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
 @media only screen and (min-width: 768px) {
   h1 {
     font-size:3.2rem;
+  }
+  .nav-header li {
+    width: auto;
+  }
+  .nav-header {
+  -ms-columns:auto; -moz-columns:auto; -webkit-columns:auto; columns:auto;
+}
+.nav-header li {
+  display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.container-header a {
+  color: #445363;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container-header a:hover {
+  color: #c67f88;
+  }
+  .cd-box {
+
+    width: 80%;
   }
 }
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 3.2rem;
   }
+
 }
 
 h2 {
@@ -167,74 +281,124 @@ section > h2::before {
   color: #445363;
 }
 
-p {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  color: #58585b;
-}
-p a {
-  color: #5f8ee4;
-  text-decoration: underline;
-}
-@media only screen and (min-width: 768px) {
-  p {
-    font-size: 1.6rem;
-    line-height: 1.6;
-  }
-}
+
 
 /* --------------------------------
 
 xButtons
 
 -------------------------------- */
-.btn {
-  border: none;
-  box-shadow: none;
-  border-radius: .25em;
-  font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif;
-  color: #ffffff;
-  padding: .6em 2.2em;
+button {
+  display:block; /* change this from inline-block */
+  width:85%; /* setting the width */
+  margin:0 auto; /* this will center  it */
+  position:relative;
+  margin-top: -6em;
+  margin-bottom: 3.5em;
+  padding: .75em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: rgba(0,0,0, 0.3);
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  color: #fff;
+  font-weight:normal;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: .9em;
   cursor: pointer;
-  background: #5f8ee4;
-}
-.btn:focus {
-  outline: none;
-}
-.no-touch .btn:hover {
-  background: #759de8;
-}
-.btn.btn-success {
-  background: #6fce72;
-}
-.no-touch .btn.btn-success:hover {
-  background: #82d485;
-}
-.btn.btn-alert {
-  background: #e4655f;
-}
-.no-touch .btn.btn-alert:hover {
-  background: #e87a75;
-}
-.btn.btn-outline {
-  color: #5f8ee4;
-  background: transparent;
-  box-shadow: inset 0 0 0 1px #5f8ee4;
-}
-.no-touch .btn.btn-outline:hover {
-  color: #ffffff;
-  background: #5f8ee4;
-}
-@media only screen and (min-width: 768px) {
-  .btn {
-    font-size: 1.6rem;
-  }
 }
 
-.cd-buttons .cd-box:nth-of-type(2) span {
-  /* CSS class name color */
-  color: #5f8ee4;
+button.book {
+  display:block; /* change this from inline-block */
+  width:100%; /* setting the width */
+  margin:0 auto;
+  margin-left: 0;/* this will center  it */
+  position:relative;
+  background-color: white;
+  border-color: #445363;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  color: #445363;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:1px;
+  font-size: .9em;
+  cursor: pointer;
+}
+button.book:hover {
+  background-color: rgba(150, 150, 150, .2);
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.section {
+  opacity: 1;
+}
+
+.section:hover {
+  opacity: .8;
+  color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.sectionlast {
+  opacity: 1;
+}
+
+.sectionlast:hover {
+  opacity: .8;
+  color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.section {
+  width: 100%;
+}
+button {
+  margin-top: -3.1em;
+  margin-bottom: 1.5em;
+}
+@media only screen and (min-width: 616px) {
+  button {
+    margin-top: -4em;
+    margin-bottom: 3em;
+  }
+}
+@media only screen and (min-width: 650px) {
+  button {
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size: .9em;
+    width: 60%;
+
+  }
+  .section {
+    width: 80%;
+    float: left;
+    margin-right: 2%;
+  }
+  button.book {
+    width: 60%;
+  }
+
+}
+@media only screen and (min-width: 880px) {
+  button {
+    margin-top: -5em;
+    margin-bottom: 3em;
+  }
 }
 
 /* --------------------------------
@@ -242,11 +406,7 @@ xButtons
 xIcons
 
 -------------------------------- */
-.cd-icons li {
-  /* icons size */
-  width: 32px;
-  height: 32px;
-}
+
 
 /* --------------------------------
 
@@ -716,24 +876,6 @@ section:after {
   display: table;
   clear: both;
 }
-section:nth-of-type(1) h2::before {
-  content: '1. ';
-}
-section:nth-of-type(2) h2::before {
-  content: '2. ';
-}
-section:nth-of-type(3) h2::before {
-  content: '3. ';
-}
-section:nth-of-type(4) h2::before {
-  content: '4. ';
-}
-section:nth-of-type(5) h2::before {
-  content: '5. ';
-}
-section:nth-of-type(6) h2::before {
-  content: '6. ';
-}
 @media only screen and (min-width: 768px) {
   section {
     margin: 3em 0 5em;
@@ -896,20 +1038,8 @@ section:nth-of-type(6) h2::before {
   }
 }
 
-.cd-typography .cd-box,
-.cd-buttons .cd-box,
-.cd-icons .cd-box,
-.cd-form .cd-box {
-  padding: 1em;
 }
-@media only screen and (min-width: 768px) {
-  .cd-typography .cd-box .cd-box,
-  .cd-buttons .cd-box .cd-box,
-  .cd-icons .cd-box .cd-box,
-  .cd-form .cd-box .cd-box {
-    padding: 2em;
-  }
-}
+
 
 /* xTypography section - basic style */
 .cd-typography h1::before {
@@ -926,46 +1056,11 @@ section:nth-of-type(6) h2::before {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.cd-buttons button {
-  margin: .4em;
-}
-@media only screen and (min-width: 1024px) {
-  .cd-buttons button {
-    margin: 1em;
-  }
+
 }
 
 /* xIcons section - basic style */
-.cd-icons li {
-  display: inline-block;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin: 1em;
-}
-.cd-icons .cd-icon-1 {
-  background-image: url("../assets/icons/icon-1.svg");
-}
-.cd-icons .cd-icon-2 {
-  background-image: url("../assets/icons/icon-2.svg");
-}
-.cd-icons .cd-icon-3 {
-  background-image: url("../assets/icons/icon-3.svg");
-}
-.cd-icons .cd-icon-4 {
-  background-image: url("../assets/icons/icon-4.svg");
-}
-.cd-icons .cd-icon-5 {
-  background-image: url("../assets/icons/icon-5.svg");
-}
-.cd-icons .cd-icon-6 {
-  background-image: url("../assets/icons/icon-6.svg");
-}
-.cd-icons .cd-icon-7 {
-  background-image: url("../assets/icons/icon-7.svg");
-}
-.cd-icons .cd-icon-8 {
-  background-image: url("../assets/icons/icon-8.svg");
-}
+
 
 /* xForm section - basic style */
 .cd-form input[type=text],
