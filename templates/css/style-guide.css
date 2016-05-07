@@ -226,10 +226,8 @@ hr {
    margin-bottom: 10px;
 }
 
-img.logo {
-    width: 200px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+#anchor {
+    margin-top: -50px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -585,7 +583,7 @@ input, textarea, select {
 
 header {
   position: fixed;
-  height: 130px;
+  height: 50px;
   width: 100%;
   top: 0;
   left: 0;
@@ -597,7 +595,7 @@ header nav {
 }
 @media only screen and (min-width: 1024px) {
   header {
-    height: 130px;
+    height: 80px;
   }
   header:after {
     content: "";
@@ -986,7 +984,6 @@ section:after {
 }
 .cd-colors b {
   display: block;
-  font-weight: normal;
   padding: .6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
