@@ -130,6 +130,7 @@ xTypography
 h1, h2 {
   font-family: "Open Sans", sans-serif;
   color: #445363;
+
   letter-spacing: .02em;
 }
 

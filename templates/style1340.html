@@ -31,12 +31,15 @@
 <div class="group clearfix">
 
 <div class="wrapper-left-35">
-  <img class="main" src="images/1340front.jpg">
-  <img class="mainbottom" src="images/1340back.jpg">
+  <div id="gallery">
+<img id="main-img" class="main" src="images/1340front.jpg">
+<ul>
+  <li><img class="thumbnail" src="images/1340front.jpg" alt="" /></li>
+  <li><img class="thumbnail" src="images/1340back.jpg" alt="" /></li>
+</ul>
 </div>
-<div class="wrapper-middle-15">
-    <img class="main" src="images/1340back.jpg">
 </div>
+
 
 <div class="wrapper-right-45">
 <h4>Style 1340</h4>
@@ -75,6 +78,26 @@ Fabric: Fabric has no stretch.</p>
 <button class="book">Book an Appointment</button>
 </div>
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/JavaScript">
+// prepare the form when the DOM is ready
+$(document).ready(function() {
+	$("#gallery li img").hover(function(){
+		$('#main-img').attr('src',$(this).attr('src').replace('thumb/', ''));
+	});
+	var imgSwap = [];
+	 $("#gallery li img").each(function(){
+		imgUrl = this.src.replace('thumb/', '');
+		imgSwap.push(imgUrl);
+	});
+	$(imgSwap).preload();
+});
+$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+</script>
 
       <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
   </body>
