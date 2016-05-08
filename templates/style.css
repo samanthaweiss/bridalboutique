@@ -593,12 +593,16 @@ h4 {
   text-align: left;
 }
 
+<<<<<<< Updated upstream
 .storyimages {
   float: left;
   width: 30%;
   padding-left: 1em;
   padding-right: 1em;
 }
+=======
+
+>>>>>>> Stashed changes
 
 
 .padding {
@@ -608,6 +612,7 @@ h4 {
 .responsebutton {
   width: 30%;
 }
+
 
 b {
   text-align: left!important;
@@ -619,6 +624,19 @@ figure {
   margin: 0;
   margin-right: 15px;
 }
+
+main {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.storyimages {
+  float: left;
+  width: 33%;
+  padding-right: 3em;
+}
+
+
 
 @media screen and (max-width: 900px) {
   .title {
@@ -667,17 +685,16 @@ figure {
     padding-left: : 1em;
     padding-right: 2em;
   }
-
+.sharestory {
+    width: 100%;
+  }
   .storyimages {
+    float: left;
     width: 100%;
-    padding-right: 1em;
+    padding-right: 3em;
   }
 
-  .sharestory {
-    width: 100%;
-  }
 }
-
 
 
 @media only screen and (min-width: 650px) {
@@ -752,11 +769,16 @@ figure {
     float: left;
     margin-left: .5em;
   }
+<<<<<<< Updated upstream
   .storyimages {
     float: left;
     width: 30%;
     padding-right: 3em;
   }
+=======
+
+
+>>>>>>> Stashed changes
 }
 
 
@@ -944,6 +966,7 @@ Main Components
   height: 100vh;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+}
 }
 
 @media only screen and (min-width: 768px) {
