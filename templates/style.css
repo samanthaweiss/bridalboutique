@@ -625,10 +625,6 @@ figure {
   margin-right: 15px;
 }
 
-main {
-  margin-left: 6em;
-  margin-right: 6em;
-}
 
 .storyimages {
   float: left;
@@ -769,16 +765,11 @@ main {
     float: left;
     margin-left: .5em;
   }
-<<<<<<< Updated upstream
   .storyimages {
     float: left;
     width: 30%;
     padding-right: 3em;
   }
-=======
-
-
->>>>>>> Stashed changes
 }
 
 
