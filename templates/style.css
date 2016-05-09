@@ -593,17 +593,12 @@ h4 {
   text-align: left;
 }
 
-<<<<<<< Updated upstream
 .storyimages {
   float: left;
   width: 30%;
   padding-left: 1em;
   padding-right: 1em;
 }
-=======
-
->>>>>>> Stashed changes
-
 
 .padding {
   padding: 1.5em;
@@ -625,6 +620,10 @@ figure {
   margin-right: 15px;
 }
 
+main {
+  margin-left: 6em;
+  margin-right: 6em;
+}
 
 .storyimages {
   float: left;
