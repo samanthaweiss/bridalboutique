@@ -678,11 +678,7 @@ main {
 .stories {
     width: 100%;
   }
-  .storyimages {
-    float: left;
-    width: 33.3%;
-    padding-right: 3em;
-  }
+
 
 }
 
@@ -764,6 +760,13 @@ main {
     width: 30%;
     padding-right: 3em;
   } */
+  .storyimages {
+    float: left;
+    width: 33.3%;
+    padding-right: 3em;
+}
+
+
 }
 
 
