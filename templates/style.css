@@ -678,11 +678,11 @@ main {
 .stories {
     width: 100%;
   }
-  /* .storyimages {
+  .storyimages {
     float: left;
     width: 100%;
     padding-right: 3em;
-  } */
+  }
 
 }
 
@@ -759,11 +759,11 @@ main {
     float: left;
     margin-left: .5em;
   }
-  .storyimages {
+  /* .storyimages {
     float: left;
     width: 30%;
     padding-right: 3em;
-  }
+  } */
 }
 
 
