@@ -703,11 +703,6 @@ main {
     width: 33%;
   }
 
-  .storyimages {
-    float: left;
-    width: 33.3%;
-  }
-
   button {
     padding-left: .5em;
     padding-right: .5em;
