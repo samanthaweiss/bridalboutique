@@ -593,7 +593,7 @@ h4 {
   text-align: left;
 }
 
-.storyimages {
+.stories {
   float: left;
   width: 100%;
   padding-bottom: 20px;
@@ -675,7 +675,7 @@ main {
     padding-left: : 1em;
     padding-right: 2em;
   }
-.sharestory {
+.stories {
     width: 100%;
   }
   /* .storyimages {
@@ -703,7 +703,7 @@ main {
     width: 33%;
   }
 
-  .shareimages {
+  .storyimages {
     float: left;
     width: 33.3%;
   }
