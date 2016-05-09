@@ -576,6 +576,13 @@ h4 {
   padding-bottom: 20px;
 }
 
+.story {
+  float: left;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-right: 2.3em;
+}
+
 .appointmentform {
   float: left;
   width: 33.3%;
@@ -686,6 +693,11 @@ figure {
   .employees {
     float: left;
     width: 33%;
+  }
+
+  .story {
+    float: left;
+    width: 33.3%;
   }
 
   button {
