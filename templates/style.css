@@ -563,6 +563,11 @@ h4 {
   margin-bottom: .50em;
 }
 
+.storyimages {
+  float: left;
+  width: 100%;
+  padding-bottom: 20px;
+}
 
 
 .employees {
@@ -740,12 +745,11 @@ figure {
     margin-left: .5em;
   }
 
-  .storyimages {
+.storyimages {
     float: left;
     width: 30%;
     padding-right: 2.5em;
 }
-
 }
 
 
