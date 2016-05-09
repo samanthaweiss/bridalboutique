@@ -679,6 +679,12 @@ main {
     width: 100%;
   }
 
+  .storyimages {
+    float: left;
+    width: 100%;
+    padding-right: 3em;
+}
+
 
 }
 
@@ -755,11 +761,7 @@ main {
     float: left;
     margin-left: .5em;
   }
-  /* .storyimages {
-    float: left;
-    width: 30%;
-    padding-right: 3em;
-  } */
+
   .storyimages {
     float: left;
     width: 33.3%;
