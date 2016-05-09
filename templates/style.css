@@ -593,12 +593,6 @@ h4 {
   text-align: left;
 }
 
-.stories {
-  float: left;
-  width: 100%;
-  padding-bottom: 20px;
-}
-
 .padding {
   padding: 1.5em;
   text-align: left;
@@ -670,13 +664,6 @@ figure {
     padding-left: : 1em;
     padding-right: 2em;
   }
-.stories {
-    width: 100%;
-  }
-
-
-
-
 }
 
 
@@ -755,10 +742,9 @@ figure {
 
   .storyimages {
     float: left;
-    width: 33.3%;
-    padding-right: 3em;
+    width: 30%;
+    padding-right: 2.5em;
 }
-
 
 }
 
