@@ -671,8 +671,13 @@ figure {
     padding-right: 2em;
   }
 }
+@media only screen and (min-width: 450px) {
 
-
+  .employees {
+    float: left;
+    width: 33%;
+  }
+}
 @media only screen and (min-width: 650px) {
   .section {
     width: 49%;
@@ -684,10 +689,7 @@ figure {
     float: left;
     padding-right: 0;
   }
-  .employees {
-    float: left;
-    width: 33%;
-  }
+
 
   .story {
     float: left;
