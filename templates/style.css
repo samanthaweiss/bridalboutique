@@ -172,7 +172,11 @@ iframe {
 
 figure.stories {
   margin: 0;
-  padding-top: 2em;
+  padding-top: 1em;
+  width: 100%;
+  float: left;
+  padding-right: 1em;
+  margin-bottom: 2%;
 }
 
 button {
@@ -617,6 +621,7 @@ b {
 figure {
   margin: 0;
   margin-right: 15px;
+
 }
 
 
@@ -672,11 +677,20 @@ figure {
   }
 }
 @media only screen and (min-width: 450px) {
-
   .employees {
     float: left;
     width: 33%;
   }
+}
+@media only screen and (min-width: 600px) {
+figure.stories {
+  margin: 0;
+  padding-top: 1em;
+  width: 50%;
+  float: left;
+  padding-right: 1em;
+  margin-bottom: 250px;
+}
 }
 @media only screen and (min-width: 650px) {
   .section {
@@ -691,10 +705,7 @@ figure {
   }
 
 
-  .story {
-    float: left;
-    width: 33.3%;
-  }
+
 
   button {
     padding-left: .5em;
@@ -754,11 +765,26 @@ figure {
   }
 }
 
+@media only screen and (min-width: 700px) {
 
+  .story {
+    float: left;
+    width: 33.3%;
+  }
+  figure.stories {
+    margin: 0;
+    padding-top: 1em;
+    width: 100%;
+    float: left;
+    padding-right: 1em;
+    margin-bottom: 20px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .nav-header li {
     width: auto;
   }
+
   .nav-header {
   -ms-columns:auto; -moz-columns:auto; -webkit-columns:auto; columns:auto;
 }
